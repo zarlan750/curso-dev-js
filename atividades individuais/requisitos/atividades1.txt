@@ -1,0 +1,34 @@
+Requisitos Funcionais (RF): Definem o que o sistema deve fazer.
+
+rf1 Sistema deve permitir que o usuario faça login utilizando um nome de usuario email ou senha
+ 2  O sistema deve validar as credenciais do usuario para permitir o acesso
+ 3 O sistema deve permitir que o usuario opte por manter a sessão ativa 
+
+cadastros de novos usuarios 
+rf1 O sistema deve permitir que novos usuarios se registrem fornecendo dados obrigatorios (ex:nome email,senha)
+ 2 O sistema deve validar o formato do email ea complexidade da senha no momento do cadastro 
+3 O sistema deve impedir cadastro com email ja existente.
+
+recuperação de senha 
+rf1 O sistema deve permitir que o usuario solicite a recuperação de senha informando o email
+
+
+Requisitos Não Funcionais (RNF): Definem restrições de qualidade, desempenho e segurança.
+
+ segurança 
+rf1 As senha devem ser armazenadas de forma segura 
+2 O sistema deve proteger contra ataques de força bruta (ex bloqueios apos multiplas tentativas )
+3 a cominicação entre cliente e servidor deve ser criptografada 
+
+usabilidade 
+1 A interface deve ser simples e intuitiva facilitando o uso do login cadastro e rec de senha 
+
+
+
+
+Regras de Negócio (RN): Definem as regras da empresa.
+
+rf1 definem como e quando tomar decisões especificas (ex Um pedido só pode ser aprovado se o valor for menor que R$1.000)
+
+Regras de validação
+garamtem que os dados ou ações estejam corretos (ex O cpf do cliente deve ter 11 digitos)
