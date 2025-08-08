@@ -1,0 +1,15 @@
+
+Requisitos funcionais (Rf)
+Rf1 O sistema deve permitir ao cliente visualizar o cardapio completo incluindo preços e descrições dos itens
+Rf2  O sistema deve permitir ao cliente selecionar um ou mais mais lanches do cardapio 
+Rf3 O sistema deve permitir ao cliente informar seu nome e dados de contato ( tel ou endereço de entrega )
+
+Requisitos não funcionais (RNF)
+Rnf1 O sistema deve ser facil de usar e intuitivo para o cliente e atendente 
+Rnf2 O sistema deve ser responsivel e funcionar corretamente em diferentes dispositivos (computadores smartphones tablets)
+Rfn3 O sistema deve ser mantido e atualizado regulamente 
+
+regras de negocios (Rn)
+Rn1 o sistema deve calcular o valor total do pedido automaticamente incluindo impostos e taxas de entrega
+Rn2 O sistema deve validar os dados de pagamento antes de confirmar o pedido 
+Rn3 A hamburgueria deve  definir um tempo maximo para preparação de cada pedido
